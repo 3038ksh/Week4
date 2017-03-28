@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
+    android:padding="10dp"
     android:background="#FFFFFF">
 
     <TextView
@@ -21,14 +21,14 @@
         android:id="@+id/textView2" />
 
     <EditText
-        android:layout_margin="10dp"
+        android:layout_margin="7dp"
         android:background="#ecd7d7"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textSize="20dp"
-        android:text="155"
+        android:hint="155"
         android:ems="10"
         android:id="@+id/e1" />
 
@@ -41,19 +41,20 @@
         android:id="@+id/textView3" />
 
     <EditText
-        android:layout_margin="10dp"
+        android:layout_margin="7dp"
         android:background="#ecd7d7"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textSize="20dp"
-        android:text="49"
+        android:hint="49"
         android:ems="10"
         android:id="@+id/e2" />
 
     <Button
-        android:layout_margin="10dp"
+        android:onClick="onClick"
+        android:layout_margin="7dp"
         android:textColor="#FFFFFF"
         android:background="#6b2527"
         android:padding="10dp"
@@ -61,12 +62,12 @@
         android:textSize="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:id="@+id/b1" />
 
     <TextView
         android:padding="10dp"
         android:text="결과가 없습니다."
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/t1" />
