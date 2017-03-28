@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    android:paddingTop="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
 
+    <TextView
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:text="평이나 면적을 입력하세요"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#f1dcdc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="10"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/e3" />
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrow"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:background="#e8e7ef"
+            android:layout_gravity="center_vertical"
+            android:text="계산결과가 없습니다."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t3" />
+
+    </TableRow>
+
+    <Button
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#3052c7"
+        android:text="평을 제곱미터로 변환"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2" />
+
+    <Button
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#38bc19"
+        android:text="제곰미터를 평으로 변환"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3" />
 </LinearLayout>

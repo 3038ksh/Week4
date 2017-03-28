@@ -25,9 +25,9 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     void init() {
-        ll1 = (LinearLayout)findViewById(R.id.activity_main2);
-        t1 = (TextView)findViewById(R.id.t1);
-        iv1 = (ImageView)findViewById(R.id.iv1);
+        ll1 = (LinearLayout) findViewById(R.id.activity_main2);
+        t1 = (TextView) findViewById(R.id.t1);
+        iv1 = (ImageView) findViewById(R.id.iv1);
     }
 
     @Override
